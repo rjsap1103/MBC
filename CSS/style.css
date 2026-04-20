@@ -2,8 +2,11 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-  font-family: "pretendard", sans-serif;
+  font-family: "Roboto", sans-serif, "pretendard";
+  font-variation-settings: "wght"100;
     
 }
 h1 {
