@@ -1,17 +1,9 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 body {
-<<<<<<< HEAD
   background-image: url(../assets/bg.png);
   font-size: 16px;
   color: #333333;
-=======
-  font-family: "Roboto", sans-serif, "pretendard";
-  font-variation-settings: "wght"100;
-    
->>>>>>> dbd0bb43315bee8159295b87d9304b62a1ea88e4
 }
 
 header {
