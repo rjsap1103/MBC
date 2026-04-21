@@ -1,23 +1,58 @@
-* {
-  box-sizing: border-box;
-}
+@charset "UTF-8";
 
 body {
-  font-family: "pretendard", sans-serif;
-    
+  background-image: url(../assets/bg.png);
+  font-size: 16px;
+  color: #333333;
 }
+
+header {
+  width: 1240px;
+  margin: 0 auto 44px;
+}
+
 h1 {
-  font-size: 18px;
-  border: 3px solid #000000;  
-  border-radius: 20px;
-  margin: 20px auto;
-  padding: 6px 0;
-  width: 300px;
   text-align: center;
-
-}
-img {
-  display: block;
-  margin: auto;  
+  padding: 20px 0 16px;
 }
 
+header nav ul {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #7c5d48;
+  border-bottom: 2px solid #7c5d48;
+  background-color: rgba(255, 255, 255, 0.42);
+  padding: 12px 0 10px;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 30px;
+}
+
+header nav ul li a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #7c5d48;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline double #2d7a92 2px;
+}
+
+div {
+  width: 1240px;
+  margin: 0 auto 50px;
+  display: flex;
+}
+
+main {
+  background-color: #ffffff;
+  /* 구별용  */
+}
+
+aside {
+  background-color: grey;
+  /* 구별용  */
+}
