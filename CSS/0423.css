@@ -60,9 +60,18 @@ header nav ul {
   width: 1240px;
   margin: 0 auto;
   padding: 10px 20px;
+  background-color: #efefef;
+  font-size: 40px;
 }
+
+a {
+  text-decoration: none;
+  color: #121212; 
+}
+
 header nav ul li a:hover {
-  text-decoration: underline;
+  text-decoration: underline double;
+  color: red
 }
 
 .msgSec {
